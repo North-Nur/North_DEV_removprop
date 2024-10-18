@@ -80,7 +80,7 @@ Config.WeaponsToRemove = {
 
 -- กำหนดเวลาในการลบ (มิลลิวินาที)
 Config.TimeToRemove = {
-    Timer = 2000, -- 3 วินาที
+    Timer = 2000, -- 2 วินาที
 }
 
 function Config.GetTotalTimeInMilliseconds()
