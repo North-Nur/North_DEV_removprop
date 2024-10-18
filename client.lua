@@ -19,7 +19,7 @@ function removeEntitiesByModels(models, poolType)
         for _, modelName in ipairs(models) do
             if modelHash == GetHashKey(modelName) and #(playerCoords - GetEntityCoords(entity)) < 100.0 then
                 DeleteEntity(entity)
-                print("ลบ " .. poolType .. " สำเร็จ: " .. modelName)
+                -- print("ลบ " .. poolType .. " สำเร็จ: " .. modelName)
             end
         end
     end
@@ -33,7 +33,7 @@ function removeWeapons(weaponModels)
     for _, weaponName in ipairs(weaponModels) do
         if currentWeapon == GetHashKey(weaponName) then
             RemoveWeaponFromPed(playerPed, currentWeapon)
-            print("ลบอาวุธสำเร็จ: " .. weaponName)
+            -- print("ลบอาวุธสำเร็จ: " .. weaponName)
         end
     end
 end
