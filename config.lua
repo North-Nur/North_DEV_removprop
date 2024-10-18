@@ -1,11 +1,11 @@
 Config = {}
 
--- เก็บ prop ที่ต้องลบ
+-- prop ที่ต้องลบ
 Config.PropsToRemove = {
     "eacinnamonshoe", -- ตัวอย่าง prop
 }
 
--- เก็บรถที่ต้องลบ
+-- รถที่ต้องลบ
 Config.VehiclesToRemove = {
     "rhino",       -- รถถัง
     "barracks",    -- รถบรรทุกทหาร
@@ -30,7 +30,7 @@ Config.VehiclesToRemove = {
     "savage"       -- เฮลิคอปเตอร์โจมตี
 }
 
--- เก็บอาวุธที่ต้องลบ
+-- อาวุธที่ต้องลบ
 Config.WeaponsToRemove = {
     "weapon_rpg",         -- ระเบิดยิงจรวด
     "weapon_grenade",     -- ระเบิดมือ
